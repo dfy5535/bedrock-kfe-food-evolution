@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "kira_food:cooked_chicken_p7",
+      "menu_category": {
+        "category": "items",
+        "group": "minecraft:itemGroup.name.miscFood"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "kira_food_cooked_chicken"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation_modifier": 0.765
+      },
+      "kira_food:quality_food": {
+        "tier": 7,
+        "tierId": "p7",
+        "baseId": "minecraft:cooked_chicken",
+        "family": "meat",
+        "mode": "full",
+        "kiraOverlay": "normal"
+      }
+    }
+  }
+}

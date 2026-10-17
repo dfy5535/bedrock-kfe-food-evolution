@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "kira_food:golden_apple_p7",
+      "menu_category": {
+        "category": "items",
+        "group": "minecraft:itemGroup.name.miscFood"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "kira_food_golden_apple"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": 1.2,
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "regeneration",
+            "chance": 1,
+            "duration": 5,
+            "amplifier": 1
+          },
+          {
+            "name": "absorption",
+            "chance": 1,
+            "duration": 120,
+            "amplifier": 0
+          }
+        ]
+      },
+      "kira_food:quality_food": {
+        "tier": 7,
+        "tierId": "p7",
+        "baseId": "minecraft:golden_apple",
+        "family": "special",
+        "mode": "protected",
+        "kiraOverlay": "light"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "KIRA 食品进化 A · 经典版（无第三方） · BP",
+    "description": "食品八档品质 · 保留原版效果 · 只接管原版 40 种食品，不碰第三方食品",
+    "uuid": "df5d0862-61b8-4e8d-b34f-ed3cb0aa3f3a",
+    "version": [
+      6,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "8b2e4d17-6a39-4f58-b0c7-1d9e6a2f5b83",
+      "entry": "scripts/main.js",
+      "version": [
+        6,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0"
+    }
+  ]
+}

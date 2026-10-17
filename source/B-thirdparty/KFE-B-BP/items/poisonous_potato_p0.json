@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "kira_food:poisonous_potato_p0",
+      "menu_category": {
+        "category": "items",
+        "group": "minecraft:itemGroup.name.miscFood"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "kira_food_poisonous_potato"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 0.3,
+        "effects": [
+          {
+            "name": "poison",
+            "chance": 0.6,
+            "duration": 5,
+            "amplifier": 0
+          }
+        ]
+      },
+      "kira_food:quality_food": {
+        "tier": 0,
+        "tierId": "p0",
+        "baseId": "minecraft:poisonous_potato",
+        "family": "risky",
+        "mode": "protected",
+        "kiraOverlay": "light"
+      }
+    }
+  }
+}

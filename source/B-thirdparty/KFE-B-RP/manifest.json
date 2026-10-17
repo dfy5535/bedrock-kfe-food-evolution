@@ -1,0 +1,42 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "KIRA 食品进化 B · 第三方兼容版 · RP",
+    "description": "食品八档品质 · 保留原版效果 · 自动接管第三方 Add-on 食品（关键词 / Tag / food 组件三重判定）",
+    "uuid": "d954b652-aec7-490e-a7e1-d345b2de482a",
+    "version": [
+      6,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b92b1ad6-f82f-4025-8568-1905ff3f82e6",
+      "version": [
+        6,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "ea83d85a-e9b1-4bb6-a9cc-37cc98ab37a7",
+      "version": [
+        6,
+        0,
+        0
+      ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ]
+}

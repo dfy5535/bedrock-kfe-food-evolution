@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "kira_food:cooked_salmon_p5",
+      "menu_category": {
+        "category": "items",
+        "group": "minecraft:itemGroup.name.miscFood"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "kira_food_cooked_salmon"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation_modifier": 0.84
+      },
+      "kira_food:quality_food": {
+        "tier": 5,
+        "tierId": "p5",
+        "baseId": "minecraft:cooked_salmon",
+        "family": "fish",
+        "mode": "full",
+        "kiraOverlay": "normal"
+      }
+    }
+  }
+}

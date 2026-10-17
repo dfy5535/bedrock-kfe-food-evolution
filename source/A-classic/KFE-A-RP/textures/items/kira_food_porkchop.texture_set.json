@@ -1,0 +1,7 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "kira_food_porkchop",
+    "metalness_emissive_roughness_subsurface": "kira_food_porkchop_mers"
+  }
+}

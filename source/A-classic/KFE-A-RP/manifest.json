@@ -1,0 +1,42 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "KIRA 食品进化 A · 经典版（无第三方） · RP",
+    "description": "食品八档品质 · 保留原版效果 · 只接管原版 40 种食品，不碰第三方食品",
+    "uuid": "8308c4f2-895d-4b64-af4c-846b55c6f9da",
+    "version": [
+      6,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "5e1d9b37-8a42-4c6f-b3e8-9d7a2f4c1b56",
+      "version": [
+        6,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "3f7c1a92-5d84-4b6e-9c21-7e5a0b3d8f14",
+      "version": [
+        6,
+        0,
+        0
+      ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ]
+}

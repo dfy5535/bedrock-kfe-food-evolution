@@ -1,0 +1,123 @@
+{
+  "resource_pack_name": "kira_food_evolution",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "kira_food_apple": {
+      "textures": "textures/items/kira_food_apple"
+    },
+    "kira_food_baked_potato": {
+      "textures": "textures/items/kira_food_baked_potato"
+    },
+    "kira_food_beetroot": {
+      "textures": "textures/items/kira_food_beetroot"
+    },
+    "kira_food_beetroot_soup": {
+      "textures": "textures/items/kira_food_beetroot_soup"
+    },
+    "kira_food_bread": {
+      "textures": "textures/items/kira_food_bread"
+    },
+    "kira_food_carrot": {
+      "textures": "textures/items/kira_food_carrot"
+    },
+    "kira_food_chorus_fruit": {
+      "textures": "textures/items/kira_food_chorus_fruit"
+    },
+    "kira_food_cooked_chicken": {
+      "textures": "textures/items/kira_food_cooked_chicken"
+    },
+    "kira_food_cooked_cod": {
+      "textures": "textures/items/kira_food_cooked_cod"
+    },
+    "kira_food_cooked_mutton": {
+      "textures": "textures/items/kira_food_cooked_mutton"
+    },
+    "kira_food_cooked_porkchop": {
+      "textures": "textures/items/kira_food_cooked_porkchop"
+    },
+    "kira_food_cooked_rabbit": {
+      "textures": "textures/items/kira_food_cooked_rabbit"
+    },
+    "kira_food_cooked_salmon": {
+      "textures": "textures/items/kira_food_cooked_salmon"
+    },
+    "kira_food_cookie": {
+      "textures": "textures/items/kira_food_cookie"
+    },
+    "kira_food_dried_kelp": {
+      "textures": "textures/items/kira_food_dried_kelp"
+    },
+    "kira_food_enchanted_golden_apple": {
+      "textures": "textures/items/kira_food_enchanted_golden_apple"
+    },
+    "kira_food_glow_berries": {
+      "textures": "textures/items/kira_food_glow_berries"
+    },
+    "kira_food_golden_apple": {
+      "textures": "textures/items/kira_food_golden_apple"
+    },
+    "kira_food_golden_carrot": {
+      "textures": "textures/items/kira_food_golden_carrot"
+    },
+    "kira_food_honey_bottle": {
+      "textures": "textures/items/kira_food_honey_bottle"
+    },
+    "kira_food_melon_slice": {
+      "textures": "textures/items/kira_food_melon_slice"
+    },
+    "kira_food_mushroom_stew": {
+      "textures": "textures/items/kira_food_mushroom_stew"
+    },
+    "kira_food_poisonous_potato": {
+      "textures": "textures/items/kira_food_poisonous_potato"
+    },
+    "kira_food_potato": {
+      "textures": "textures/items/kira_food_potato"
+    },
+    "kira_food_pufferfish": {
+      "textures": "textures/items/kira_food_pufferfish"
+    },
+    "kira_food_pumpkin_pie": {
+      "textures": "textures/items/kira_food_pumpkin_pie"
+    },
+    "kira_food_rabbit_stew": {
+      "textures": "textures/items/kira_food_rabbit_stew"
+    },
+    "kira_food_beef": {
+      "textures": "textures/items/kira_food_beef"
+    },
+    "kira_food_chicken": {
+      "textures": "textures/items/kira_food_chicken"
+    },
+    "kira_food_cod": {
+      "textures": "textures/items/kira_food_cod"
+    },
+    "kira_food_mutton": {
+      "textures": "textures/items/kira_food_mutton"
+    },
+    "kira_food_porkchop": {
+      "textures": "textures/items/kira_food_porkchop"
+    },
+    "kira_food_rabbit": {
+      "textures": "textures/items/kira_food_rabbit"
+    },
+    "kira_food_salmon": {
+      "textures": "textures/items/kira_food_salmon"
+    },
+    "kira_food_rotten_flesh": {
+      "textures": "textures/items/kira_food_rotten_flesh"
+    },
+    "kira_food_spider_eye": {
+      "textures": "textures/items/kira_food_spider_eye"
+    },
+    "kira_food_cooked_beef": {
+      "textures": "textures/items/kira_food_cooked_beef"
+    },
+    "kira_food_sweet_berries": {
+      "textures": "textures/items/kira_food_sweet_berries"
+    },
+    "kira_food_tropical_fish": {
+      "textures": "textures/items/kira_food_tropical_fish"
+    }
+  }
+}
