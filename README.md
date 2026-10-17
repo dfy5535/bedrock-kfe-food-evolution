@@ -2,7 +2,7 @@
 
 > 把原版与第三方食品分成**八档品质**，吃下去更有价值，同时保留原版手感。
 >
-> **当前版本** `v6.0.1` ｜ **实测运行** `1.26.52.3`
+> **当前版本** `v6.0.2` ｜ **实测运行** `1.26.52.3`
 
 [← 返回合集总仓库](https://github.com/dfy5535/minecraft-bedrock-addons)
 
@@ -19,8 +19,8 @@ KFE 接管玩家食用的食品，按品质分档给出不同的附加效果，�
 
 | 变体 | 说明 | 文件 |
 |---|---|---|
-| **A 经典版** | 只接管**原版 39 种食品**，不碰第三方 | `KFE-A-Classic-v6.0.1.mcaddon` |
-| **B 第三方兼容版** | 自动接管**第三方 Add-on 食品**（关键词 / Tag / food 组件三重判定） | `KFE-B-ThirdParty-v6.0.1.mcaddon` |
+| **A 经典版** | 只接管**原版 39 种食品**，不碰第三方 | `KFE-A-Classic-v6.0.2.mcaddon` |
+| **B 第三方兼容版** | 自动接管**第三方 Add-on 食品**（关键词 / Tag / food 组件三重判定） | `KFE-B-ThirdParty-v6.0.2.mcaddon` |
 
 两者代码不同（1535 / 1704 行），按需装一个，不要同时装。
 
@@ -31,12 +31,12 @@ KFE 接管玩家食用的食品，按品质分档给出不同的附加效果，�
 | 项 | 值 |
 |---|---|
 | 当前版本 | v6.0.1 |
-| manifest 最低版本 | BP `1.21.0` / RP `1.21.120` |
+| 最低引擎版本 | **1.26.50**（v6.0.2 起修正） |
 | 脚本 API | `@minecraft/server` **2.10.0** |
 | 实测运行版本 | 1.26.52.3 |
 
-> ⚠️ **注意**：manifest 写的 `min_engine_version` 是 1.21.0，但脚本依赖 `@minecraft/server 2.10.0`，
-> 这个模块版本只在较新的引擎里提供，所以**实际最低需要 1.26 左右**，不是 1.21.0。
+> ✅ **v6.0.2 已修正版本声明**：原 manifest 写 1.21.0，但脚本依赖 `@minecraft/server 2.10.0`（stable 对应 1.26.44，1.26.40 时仍是 beta），
+> 在 1.21.x 安装会静默失败。现已改为 `[1,26,50]`。
 
 ---
 
@@ -81,8 +81,8 @@ bedrock-kfe-food-evolution/
 ├── LICENSE-ASSETS.md        ← CC-BY-4.0
 ├── NOTICE.md
 ├── dist/
-│   ├── KFE-A-Classic-v6.0.1.mcaddon
-│   └── KFE-B-ThirdParty-v6.0.1.mcaddon
+│   ├── KFE-A-Classic-v6.0.2.mcaddon
+│   └── KFE-B-ThirdParty-v6.0.2.mcaddon
 └── source/
     ├── A-classic/           ← BP + RP
     └── B-thirdparty/

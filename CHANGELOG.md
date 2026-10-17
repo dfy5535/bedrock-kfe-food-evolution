@@ -2,6 +2,16 @@
 
 [← 返回 MOD 页](./README.md)
 
+## v6.0.2 — 2026-10-17
+
+- 🐛 **修复** — **版本声明与实际严重不符**：manifest 的 `min_engine_version` 原写 `[1,21,0]`（BP）/ `[1,21,120]`（RP），
+  但脚本依赖 `@minecraft/server 2.10.0` —— 该模块的 stable 发布对应 MC **1.26.44**（1.26.40 时它还是 beta）。
+  用户在 1.21.x 上安装会**静默失败**。已改为 `[1,26,50]`。
+- 🐛 **修复** — **RP → BP 依赖 UUID 失效**：重新打包时换了 BP 的 UUID，但 RP 的 `dependencies` 仍指向旧 UUID，
+  MCT 报 `Resource Pack Dependencies` 错误。已同步。
+- 🔧 **变更** — 版本号 `6.0.1` → `6.0.2`，更换 BP/RP UUID。
+- 🧪 **验证** — BDS 1.26.52.3 真机：0 错误、识别 39 种食品。
+
 ## v6.0.1 — 2026-10-17
 
 - 🐛 **修复** — **打包结构错误**：原包是 `.mcaddon` 内嵌 `.mcpack`，Minecraft 导入器不会递归解包，
