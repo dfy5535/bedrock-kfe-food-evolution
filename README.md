@@ -52,6 +52,18 @@ KFE 接管玩家食用的食品，按品质分档给出不同的附加效果，�
 
 ---
 
+## 语言版本（English / 日本語）
+
+每个语言**独立打包**：只带一份语言文件（`en_US.lang` / `ja_JP.lang`），包内**不含任何中文**（连代码注释都翻过），玩法与数值和中文版完全一致。
+
+| 语言 | 文件 |
+|---|---|
+| 🇨🇳 中文 | `dist/KFE-A-Classic-v6.0.2.mcaddon`<br>`dist/KFE-B-ThirdParty-v6.0.2.mcaddon` |
+| 🇬🇧 English | `dist/KFE-A-Classic-v6.0.2-en.mcaddon`<br>`dist/KFE-B-ThirdParty-v6.0.2-en.mcaddon` |
+| 🇯🇵 日本語 | `dist/KFE-A-Classic-v6.0.2-ja.mcaddon`<br>`dist/KFE-B-ThirdParty-v6.0.2-ja.mcaddon` |
+
+> 同一变体只装**一个语言**即可；三种语言的包 UUID 各不相同，可以并存但不建议同时启用。
+
 ## 安装
 
 1. 下载 `dist/` 里对应变体的 `.mcaddon`
